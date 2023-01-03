@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!--Metadatos-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Pablo Silva">
+  <meta name="description" content="Portafolio de desarrollo web">
+  <meta name="keywords" content="HTML CSS JAVASCRIPT REACT">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!--Bootstrap icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <!--CSS-->
+  <link rel="stylesheet" href="styles.css">
+  <!--Document icon-->
+  <link rel="icon" type="image/x-icon" href="icons/logo.png">
+  <!--Document title-->
+  <title>Pablo Silva Desarrollador Web</title>
+  <!--GoogleFont-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Rubik+Dirt&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Quicksand:wght@500&family=Rubik+Dirt&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light ">
+    <div class="container-fluid ">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+         <h2>Scripty>></h2>
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experiencia">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a href="#proyectos" class="nav-link ">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacto" class="nav-link ">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="perfil ">
+    <div class="perfil-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="perfil-imagen" src="imagenes/imgPerfil/imagenPerfil.jpg" alt="imgPerfil">
+      <h1>Hola, soy Pablo Silva</h1>
+      <h2>Desarrollador Web Full Stack</h2>
+    </div>
+    <div class="perfil-inferior">
+      <img class="perfil-inferior-imagen img-fluid" src="imagenes/imgPerfil/Developers.png" alt="imagen perfil inferior">
+    </div>
+    <a href="/archivos/CV_Pablo_Silva.pdf" download target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+        Descargar mi CV <i class="bi bi-arrow-down-circle-fill"></i>
+      </button>
+    </a>
+  </section>
+
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo">¿Quién es Pablo Silva?</h2>
+      <p class="seccion-texto">
+        Soy una persona perseverante, responsable y comprometida
+        con su trabajo, con un gran interés por la ciencia, la ingeniería, las matemáticas y la programación.
+        Consciente de que el conocimiento debe aplicarse para contribuir al desarrollo y al avance de nuestro entorno.
+      </p>
+    </div>
+  </section>
+
+  <section id="experiencia" class="experiencia seccion-clara">
+    <div class="container text-center">
+      <div class="row">
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Desarrollo Web</p>
+          <p>Desarrollo de aplicaciones web interactivas y responsivas en fronted, asi como API´s en backend</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Html</span>
+            <span class="badge text-bg-primary">Css</span>
+            <span class="badge text-bg-primary">Tailwind</span>
+            <span class="badge text-bg-primary">Javascript</span>
+            <span class="badge text-bg-primary">ReactJS</span>
+            <span class="badge text-bg-primary">NodeJS</span>
+            <span class="badge text-bg-primary">Express</span>
+            <span class="badge text-bg-primary">Postgres</span>
+          </div>
+        </div>
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-file-earmark-code-fill"></i>
+          <p class="experiencia-titulo">Estudios en programación</p>
+          <p>Formación como desarrollador web fullstack en el bootcamp Academlo, y una preparación externa con cursos
+            en varias plataformas para mejorar mis habilidades en programación
+          </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Udemy</span>
+            <span class="badge text-bg-primary">Bootcamp Academlo</span>
+            <span class="badge text-bg-primary">FreecodeCamp</span>
+            <span class="badge text-bg-primary">OpenBootcamp</span>
+          </div>
+        </div>
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-cpu-fill"></i>
+          <p class="experiencia-titulo">Otros estudios</p>
+          <p>Formación como ingeniero en mecatrónica y una maestría en róbotica y automatización.Desarrollador de
+            sistemas embebidos utilizando lenguajes Python y C++
+          </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">U.Catolica</span>
+            <span class="badge text-bg-primary">Esneca</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="proyectos" class="proyectos d-flex flex-column">
+    <h2 class="seccion-titulo  texto-negro">Mis proyectos</h2>
+    <h3 class="seccion-descripcion">Proyectos que desarrollé recientemente</h3>
+    <div class="container text-center proyectos-contenedor ">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="/imagenes/imgPortafolio/ecommerce.jpg" alt="ecommerce">
+            <div class="overlay">
+              <p>Ecommerce-React && React-Router && Redux</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/psilvag/Ecommerce-React" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                <a href="https://6359e7bf3903f322c81618a9--legendary-kashata-3b78d3.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="/imagenes/imgPortafolio/pokemon.jpg" alt="pokemon">
+            <div class="overlay">
+              <p>Pokemon API-React && React-Router && Redux</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/psilvag/Entregable5-react" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                <a href="https://6351b2db1ad8c313cdeaa3ea--ephemeral-crumble-8c9853.netlify.app/#/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="/imagenes/imgPortafolio/ecommerceJS.jpg" alt="ecommerceJS">
+            <div class="overlay">
+              <p>Ecommerce-Javascript Vanilla</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/betancesdar/e-commerce-fulywev" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                <a href="https://fulyweb.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="/imagenes/imgPortafolio/rickmorty.jpg" alt="rickmorty">
+            <div class="overlay">
+              <p>Rick and Morty API-React</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/psilvag/Entregable3-React" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                <a href="https://633b3b850fa2c529d14c1a14--dazzling-pegasus-f5ce60.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="/imagenes/imgPortafolio/crud.jpg" alt="crud">
+            <div class="overlay">
+              <p>CRUD-Axios && React</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/psilvag/Entregable4-react" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                <a href="https://dancing-kitten-8dab04.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="/imagenes/imgPortafolio/weather.jpg" alt="weather">
+            <div class="overlay">
+              <p>Proyecto API de clima-React</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/psilvag/Entregable2-React" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                <a href="https://6330d751f8fb56661a1c688c--aquamarine-puppy-3198a9.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+     
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="/imagenes/imgPortafolio/todolist.jpg" alt="todolist">
+          <div class="overlay">
+            <p>Proyecto To-do List-JavaScript Vanilla</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/psilvag/App-TO-DO-LIST" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+              <a href="https://6361acd076bed706aae65a1d--kaleidoscopic-tapioca-aecabc.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="/imagenes/imgPortafolio/Pokemons_api.png" alt="API Pokemon JS">
+          <div class="overlay">
+            <p>Proyecto Consumiendo API_Pokemons-JavaScript Vanilla</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/psilvag/APIPokemons_JS" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+              <a href="https://639ca574c324520ff2ea04c3--creative-nougat-5a438e.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <!-- <a href="" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-info">
+        Ver más proyectos <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a> -->
+
+
+  </section>
+
+  <section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            !Hablemos!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctame para iniciar grandes proyectos
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:pmarcelosilvag@gmail.com">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+
+
+        </div>
+      </div>
+  </section>
+
+  <footer class="seccion-oscura d-flex flex-column justify-content-center align-items-center">
+    <img class="footer-icon" src="/icons/Typing.png" alt="logo">
+    <p class="footer-texto text-center">Me encanta aprender y crear cosas nuevas todos los dias<br> Trabajemos juntos
+    </p>
+    <div class="iconos-redes-sociales d-flex flex-wrap justify-content-center align-items-center ">
+      <a href="https://www.linkedin.com/in/pablo-silva-a7862a255/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://github.com/psilvag" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="mailto:pmarcelosilvag@gmail" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope-at-fill"></i>
+      </a>
+    </div>
+    <div class="derechos">Creado por Pablo Silva (2022) &#169;</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,372 @@
+/*Estilos generales*/
+html{
+    scroll-behavior: smooth;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-oscura {
+    color: #fff;
+    background-color: #005466;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Merriweather', serif;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Merriweather', serif;
+}
+
+.seccion-texto {
+    font-size: 1.3rem;
+}
+
+.texto-blanco {
+    color: white;
+}
+
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+
+/*Seccion navbar*/
+.navbar {
+    padding: 2rem;
+    background-color: #71a4af;
+    font-size: 23px;
+
+}
+.navbar-nav a{
+   color: white;
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.navbar-collapse h2{
+   color: white;
+   
+}
+
+/*Seccion perfil*/
+.perfil {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+
+}
+
+.perfil a {
+    text-decoration: none;
+}
+
+.perfil-principal {
+    padding: 3rem;
+}
+
+.perfil-imagen {
+    width: 250px;
+    height: 330px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.perfil-principal h2 {
+
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+.perfil-inferior-imagen {
+    border-radius: 30px;
+}
+
+.perfil .btn-info {
+    background-color: #005466;
+    font-size: 22px;
+    border: 1px solid white;
+    color: white;
+    margin: 30px;
+}
+
+.perfil .btn-info:hover {
+    filter: brightness(1.5);
+    transition: filter 0.5s ease;
+}
+
+/*Seccion sobre mi*/
+.sobre-mi {
+    height: 400px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+
+}
+
+/*Seccion experiencia*/
+.experiencia {
+    padding: 40px 40px 60px 40px;
+}
+
+.experiencia .columna {
+    padding: 20px;
+    border: 3px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.2 ease-in;
+}
+
+.experiencia .columna:hover {
+    background-color: #0A88A2;
+    color: white;
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #04252d;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
+    background-color: #0a0a23;
+
+}
+
+/*Seccion proyectos*/
+
+.proyectos {
+    padding: 40px;
+}
+.proyectos img {
+    height: 240px;
+    width: 100%;
+    padding: 6px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+.proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.proyecto {
+    position: relative;
+    border: 2px solid #8080804d;
+    margin-top: 30px;
+}
+
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.proyecto:hover img {
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+    display: flex;
+}
+
+.overlay i {
+    font-size: 60px;
+    color: black;
+    margin: 20px;
+}
+
+.proyectos .btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+    background-color: white;
+    border: 2px solid #04252d;
+}
+
+.proyectos .btn-info:hover {
+    border: 2px solid #0A88A2;
+}
+
+
+/*Seccion contacto*/
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.rectangulo {
+    margin-top: -4rem;
+    background-color: #63CDE2;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px;
+
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+    background-color: white;
+    color: black;
+}
+
+.contacto button:hover i {
+    color: black;
+}
+
+/*Seccion footer*/
+
+footer {
+    min-height: 500px;
+
+}
+
+.footer-icon {
+    height: 280px;
+    width: 280px;
+    margin: 10px;
+}
+
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid #63CDE2;
+
+}
+
+.iconos-redes-sociales a:hover i {
+    color: black;
+}
+
+.derechos {
+    font-size: 18px;
+    color: white;
+    padding: 20px;
+}
+
+/*Seccion responsive*/
+
+@media screen and (max-width:400px) {
+    .overlay i {
+        font-size: 40px;
+    }
+
+    .overlay p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:700px) {
+    .perfil-inferior-imagen {
+        max-width: 400px;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
