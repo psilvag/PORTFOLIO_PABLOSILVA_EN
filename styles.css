@@ -1,7 +1,8 @@
 /*Estilos generales*/
-html{
+html {
     scroll-behavior: smooth;
 }
+
 section {
     display: flex;
     flex-direction: column;
@@ -10,13 +11,13 @@ section {
 }
 
 .seccion-oscura {
-    color: #fff;
-    background-color: #005466;
+    color: #29D632;
+    background-color: #0C0C18;
 }
 
 .seccion-clara {
-    color: black;
-    background-color: white;
+    color: #20293E;
+
 }
 
 h1 {
@@ -28,10 +29,12 @@ h1 {
     font-size: 2rem;
     padding: 15px 0;
     font-family: 'Merriweather', serif;
+    color: white;
 }
 
 .seccion-texto {
     font-size: 1.3rem;
+    text-align: justify;
 }
 
 .texto-blanco {
@@ -39,34 +42,47 @@ h1 {
 }
 
 .seccion-descripcion {
-    font-size: 1.2rem;
-    color: #584e4e;
+    font-size: 1.5rem;
+    color: white;
 }
 
 
 /*Seccion navbar*/
 .navbar {
-    padding: 2rem;
-    background-color: #71a4af;
+    padding: 1.1rem;
+    background-color: #0C0C18;
     font-size: 23px;
+    z-index: 3;
+    width: 100%;
+    margin-bottom: 20px;
+}
 
+.navbar-nav a {
+    color: white;
 }
-.navbar-nav a{
-   color: white;
-}
+
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
-   
+
 }
-.navbar-collapse h2{
-   color: white;
-   
+
+.navbar-collapse h2 {
+    color: #29D632;
+
+}
+
+.nav-item a {
+    color: white;
+}
+
+.nav-item a:hover {
+    color: #29D632;
 }
 
 /*Seccion perfil*/
 .perfil {
-    background-color: #f5f6f7;
+    background: linear-gradient(133deg, rgba(12, 12, 24, 1) 3%, rgba(42, 52, 77, 1) 31%, rgba(54, 65, 85, 1) 75%, rgba(74, 83, 96, 1) 91%, rgba(94, 101, 106, 1) 100%);
     min-height: 450px;
     text-align: center;
 
@@ -84,29 +100,38 @@ h1 {
     width: 250px;
     height: 330px;
     border-radius: 50%;
-    margin: 20px;
+    margin: 50px;
+}
+
+.perfil-principal h1 {
+    color: white;
+}
+
+.perfil-principal .lenguajes {
+    color: white;
 }
 
 .perfil-principal h2 {
 
-    font-size: 1.5rem;
-    color: #615151;
+    font-size: 1.8rem;
+    color: #29D632;
 }
 
 .perfil-inferior-imagen {
     border-radius: 30px;
+    width: 480px;
+    height: 480px;
 }
 
 .perfil .btn-info {
-    background-color: #005466;
+    background-color: #07080C;
     font-size: 22px;
-    border: 1px solid white;
-    color: white;
+    color: #29D632;
     margin: 30px;
 }
 
 .perfil .btn-info:hover {
-    filter: brightness(1.5);
+    filter: brightness(1.6);
     transition: filter 0.5s ease;
 }
 
@@ -114,7 +139,7 @@ h1 {
 .sobre-mi {
     height: 400px;
     padding: 25px;
-    margin-bottom: 20px;
+
 }
 
 .sobre-mi .contenedor {
@@ -126,6 +151,7 @@ h1 {
 /*Seccion experiencia*/
 .experiencia {
     padding: 40px 40px 60px 40px;
+    background: linear-gradient(133deg, rgba(12, 12, 24, 1) 3%, rgba(42, 52, 77, 1) 31%, rgba(54, 65, 85, 1) 75%, rgba(74, 83, 96, 1) 91%, rgba(94, 101, 106, 1) 100%);
 }
 
 .experiencia .columna {
@@ -136,11 +162,14 @@ h1 {
     align-items: center;
     justify-content: space-between;
     transition: all 0.2 ease-in;
+    color: white;
 }
 
 .experiencia .columna:hover {
-    background-color: #0A88A2;
+    background-color: #07080C;
     color: white;
+    border: 2px solid #7ade30;
+
 }
 
 .experiencia-titulo {
@@ -165,7 +194,7 @@ h1 {
 
 .badge {
     margin: 5px;
-    background-color: #0a0a23;
+    background-color: #07080C;
 
 }
 
@@ -173,7 +202,9 @@ h1 {
 
 .proyectos {
     padding: 40px;
+    background: linear-gradient(180deg, rgba(12, 12, 24, 1) 3%, rgba(42, 52, 77, 1) 31%, rgba(54, 65, 85, 1) 75%, rgba(74, 83, 96, 1) 91%, rgba(94, 101, 106, 1) 100%);
 }
+
 .proyectos img {
     height: 240px;
     width: 100%;
@@ -182,6 +213,7 @@ h1 {
     display: block;
     transition: all 0.2s ease;
 }
+
 .proyectos-contenedor {
     padding-top: 60px;
     margin-bottom: 40px;
@@ -201,6 +233,7 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    color: white;
 }
 
 .overlay p {
@@ -223,7 +256,7 @@ h1 {
 
 .overlay i {
     font-size: 60px;
-    color: black;
+    color: #29D632;
     margin: 20px;
 }
 
@@ -248,7 +281,7 @@ h1 {
 
 .rectangulo {
     margin-top: -4rem;
-    background-color: #63CDE2;
+    background-color: #0C0C18;
     border-radius: 10px;
     box-shadow: 0px 1px 4px 1px;
 
@@ -261,8 +294,8 @@ h1 {
 }
 
 .contacto .descripcion {
-    color: white;
-    font-size: 1.2rem;
+    color: #29D632;
+    font-size: 1.4rem;
 }
 
 .contacto button {
@@ -300,8 +333,8 @@ footer {
 }
 
 .footer-icon {
-    height: 280px;
-    width: 280px;
+    height: 350px;
+    width: 350px;
     margin: 10px;
 }
 
@@ -346,6 +379,7 @@ footer {
     padding: 20px;
 }
 
+
 /*Seccion responsive*/
 
 @media screen and (max-width:400px) {
@@ -356,11 +390,20 @@ footer {
     .overlay p {
         font-size: 18px;
     }
+
+    .navbar-toggler {
+        background-color: white;
+    }
+
 }
 
 @media screen and (min-width:700px) {
     .perfil-inferior-imagen {
         max-width: 400px;
+    }
+
+    .navbar-toggler {
+        background-color: white;
     }
 }
 
@@ -369,4 +412,9 @@ footer {
     .navbar-brand {
         display: none;
     }
+
+    .navbar-toggler {
+        background-color: white;
+    }
+
 }

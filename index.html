@@ -19,7 +19,7 @@
   <!--Document icon-->
   <link rel="icon" type="image/x-icon" href="icons/logo.png">
   <!--Document title-->
-  <title>Pablo Silva Desarrollador Web</title>
+  <title>Pablo Silva Desarrollador Web Full-Stack</title>
   <!--GoogleFont-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,7 +33,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-light ">
+  <nav class="navbar navbar-expand-md navbar-light position-fixed  ">
     <div class="container-fluid ">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
         aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,11 +41,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbar-toggler">
         <a class="navbar-brand" href="#">
-         <h2>Scripty>></h2>
+          <h2>Scripty>></h2>
         </a>
         <ul class="navbar-nav d-flex justify-content-center align-items-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+            <a class="nav-link active" aria-current="page" href="#sobre-mi" style="color:#29D632">Sobre mi</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#experiencia">Experiencia</a>
@@ -63,20 +63,21 @@
 
   <section class="perfil ">
     <div class="perfil-principal d-flex flex-column justify-content-center align-items-center">
-      <img class="perfil-imagen" src="imagenes/imgPerfil/imagenPerfil.jpg" alt="imgPerfil">
+      <img class="perfil-imagen" src="imagenes/imgPerfil/imagen_Perfil.jpg" alt="imgPerfil">
       <h1>Hola, soy Pablo Silva</h1>
       <h2>Desarrollador Web Full Stack</h2>
-      <div class="col-12">
-        HTML5 | CSS3 | Javascript | Tailwind | ReactJs | NodeJs | Express | Postgres 
+      <div class="col-12 lenguajes">
+        HTML5 | CSS3 | Javascript | Tailwind | ReactJs | NodeJs | Express | Postgres
       </div>
-     
+
     </div>
     <div class="perfil-inferior">
-      <img class="perfil-inferior-imagen img-fluid" src="imagenes/imgPerfil/Developers.png" alt="imagen perfil inferior">
+      <img class="perfil-inferior-imagen img-fluid" src="imagenes/imgPerfil/programming.png"
+        alt="imagen perfil inferior">
     </div>
     <a href="/archivos/CV_PabloSilva.pdf" download target="_blank" rel="noopener noreferrer">
       <button type="button" class="btn btn-info">
-        Descargar mi CV <i class="bi bi-arrow-down-circle-fill"></i>
+        Descargar CV <i class="bi bi-arrow-down-circle-fill"></i>
       </button>
     </a>
   </section>
@@ -85,9 +86,13 @@
     <div class="contenedor">
       <h2 class="seccion-titulo">¿Quién es Pablo Silva?</h2>
       <p class="seccion-texto">
-        Soy una persona perseverante, responsable y comprometida
-        con su trabajo, con un gran interés por la ciencia, la ingeniería, las matemáticas y la programación.
-        Consciente de que el conocimiento debe aplicarse para contribuir al desarrollo y al avance de nuestro entorno.
+        Ingeniero Mecatrónico y desarrollador web altamente creativo y motivado con experiencia en la creación de sitios
+        web y
+        aplicaciones efectivas. Hábil en la implementación de las tecnologías de
+        desarrollo web y la solución de problemas complejos de codificación y hardware, con un enfoque en el desarrollo
+        e implementación de soluciones
+        eficientes y atractivas. Capacidad para trabajar en equipo,
+        liderar proyectos y entregar resultados excepcionales en plazos ajustados.
       </p>
     </div>
   </section>
@@ -98,27 +103,31 @@
         <div class="columna col-12 col-md-4">
           <i class="bi bi-laptop"></i>
           <p class="experiencia-titulo">Desarrollo Web</p>
-          <p>Desarrollo de aplicaciones web interactivas y responsivas en fronted, asi como API´s en backend</p>
+          <p>Desarrollo de aplicaciones web efectivas utilizando tecnologías para el desarrollo fronted y backend.
+            HABILIDADES CON:</p>
           <div class="badges-contenedor">
-            <span class="badge text-bg-primary">Html</span>
-            <span class="badge text-bg-primary">Css</span>
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
             <span class="badge text-bg-primary">Tailwind</span>
             <span class="badge text-bg-primary">Javascript</span>
             <span class="badge text-bg-primary">ReactJS</span>
             <span class="badge text-bg-primary">NodeJS</span>
             <span class="badge text-bg-primary">Express</span>
             <span class="badge text-bg-primary">Postgres</span>
+            <span class="badge text-bg-primary">SQL</span>
+            <span class="badge text-bg-primary">Rest API</span>
           </div>
         </div>
         <div class="columna col-12 col-md-4">
           <i class="bi bi-file-earmark-code-fill"></i>
           <p class="experiencia-titulo">Estudios en programación</p>
-          <p>Formación como desarrollador web fullstack en el bootcamp Academlo, y una preparación externa con cursos
-            en varias plataformas para mejorar mis habilidades en programación
+          <p>Formación como desarrollador web Full-Stack en la escuela de ciencia y computación "Academlo", y una
+            preparación externa con cursos
+            en varias plataformas de programación. ESCUELAS Y CURSOS EN:
           </p>
           <div class="badges-contenedor">
             <span class="badge text-bg-primary">Udemy</span>
-            <span class="badge text-bg-primary">Bootcamp Academlo</span>
+            <span class="badge text-bg-primary">Academlo</span>
             <span class="badge text-bg-primary">FreecodeCamp</span>
             <span class="badge text-bg-primary">OpenBootcamp</span>
           </div>
@@ -126,12 +135,15 @@
         <div class="columna col-12 col-md-4">
           <i class="bi bi-cpu-fill"></i>
           <p class="experiencia-titulo">Otros estudios</p>
-          <p>Formación como ingeniero en mecatrónica y una maestría en róbotica y automatización.Desarrollador de
-            sistemas embebidos utilizando lenguajes Python y C++
-          </p>
+          <p>Formación como ingeniero en mecatrónica y una maestría en róbotica y automatización. Desarrollador de
+            sistemas embebidos, algoritmos para visión artificial, machine learning y ROS (Robot operating System)
+            utilizando lenguajes Python y C++.
+            ESTUDIOS Y OTRAS HABILIDADES:</p>
           <div class="badges-contenedor">
-            <span class="badge text-bg-primary">U.Catolica</span>
-            <span class="badge text-bg-primary">Esneca</span>
+            <span class="badge text-bg-primary">U.Católica</span>
+            <span class="badge text-bg-primary">Grupo Esneca</span>
+            <span class="badge text-bg-primary">Python</span>
+            <span class="badge text-bg-primary">C++</span>
           </div>
         </div>
 
@@ -142,7 +154,7 @@
 
   <section id="proyectos" class="proyectos d-flex flex-column">
     <h2 class="seccion-titulo  texto-negro">Mis proyectos</h2>
-    <h3 class="seccion-descripcion">Proyectos que desarrollé recientemente</h3>
+    <h3 class="seccion-descripcion">Proyectos que desarrollé</h3>
     <div class="container text-center proyectos-contenedor ">
       <div class="row">
         <!-- <div class="col-12 col-md-6 col-lg-4">
@@ -162,10 +174,12 @@
           <div class="proyecto">
             <img src="/imagenes/imgPortafolio/pokemon.jpg" alt="pokemon">
             <div class="overlay">
-              <p>Pokemon API-React && React-Router && Redux</p>
+              <p>Pokemon ReactJS && React-Router && Redux</p>
               <div class="iconos-contenedor">
-                <a href="https://github.com/psilvag/Entregable5-react" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
-                <a href="https://6351b2db1ad8c313cdeaa3ea--ephemeral-crumble-8c9853.netlify.app/#/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
+                <a href="https://github.com/psilvag/Entregable5-react" target="_blank" rel="noopener noreferrer"><i
+                    class="bi bi-github"></i></a>
+                <a href="https://6351b2db1ad8c313cdeaa3ea--ephemeral-crumble-8c9853.netlify.app/#/" target="_blank"
+                  rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
               </div>
             </div>
           </div>
@@ -177,8 +191,10 @@
             <div class="overlay">
               <p>Ecommerce-Javascript Vanilla</p>
               <div class="iconos-contenedor">
-                <a href="https://github.com/betancesdar/e-commerce-fulywev" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
-                <a href="https://fulyweb.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
+                <a href="https://github.com/betancesdar/e-commerce-fulywev" target="_blank" rel="noopener noreferrer"><i
+                    class="bi bi-github"></i></a>
+                <a href="https://fulyweb.netlify.app/" target="_blank" rel="noopener noreferrer"><i
+                    class="bi bi-laptop-fill"></i></a>
               </div>
             </div>
           </div>
@@ -188,10 +204,12 @@
           <div class="proyecto">
             <img src="/imagenes/imgPortafolio/rickmorty.jpg" alt="rickmorty">
             <div class="overlay">
-              <p>Rick and Morty API-React</p>
+              <p>Rick y Morty ReactJS |API Rick y Morty</p>
               <div class="iconos-contenedor">
-                <a href="https://github.com/psilvag/Entregable3-React" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
-                <a href="https://633b3b850fa2c529d14c1a14--dazzling-pegasus-f5ce60.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
+                <a href="https://github.com/psilvag/Entregable3-React" target="_blank" rel="noopener noreferrer"><i
+                    class="bi bi-github"></i></a>
+                <a href="https://633b3b850fa2c529d14c1a14--dazzling-pegasus-f5ce60.netlify.app/" target="_blank"
+                  rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
               </div>
             </div>
           </div>
@@ -214,44 +232,50 @@
           <div class="proyecto">
             <img src="/imagenes/imgPortafolio/weather.jpg" alt="weather">
             <div class="overlay">
-              <p>Proyecto API de clima-React</p>
+              <p>Proyecto de clima-ReactJS |API de Clima</p>
               <div class="iconos-contenedor">
-                <a href="https://github.com/psilvag/Entregable2-React" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
-                <a href="https://6330d751f8fb56661a1c688c--aquamarine-puppy-3198a9.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
+                <a href="https://github.com/psilvag/Entregable2-React" target="_blank" rel="noopener noreferrer"><i
+                    class="bi bi-github"></i></a>
+                <a href="https://6330d751f8fb56661a1c688c--aquamarine-puppy-3198a9.netlify.app/" target="_blank"
+                  rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
               </div>
             </div>
           </div>
         </div>
-     
 
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="proyecto">
-          <img src="/imagenes/imgPortafolio/todolist.jpg" alt="todolist">
-          <div class="overlay">
-            <p>Proyecto To-do List-JavaScript Vanilla</p>
-            <div class="iconos-contenedor">
-              <a href="https://github.com/psilvag/App-TO-DO-LIST" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
-              <a href="https://6361acd076bed706aae65a1d--kaleidoscopic-tapioca-aecabc.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="/imagenes/imgPortafolio/todolist.jpg" alt="todolist">
+            <div class="overlay">
+              <p>Proyecto To-do List-JavaScript Vanilla</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/psilvag/App-TO-DO-LIST" target="_blank" rel="noopener noreferrer"><i
+                    class="bi bi-github"></i></a>
+                <a href="https://6361acd076bed706aae65a1d--kaleidoscopic-tapioca-aecabc.netlify.app/" target="_blank"
+                  rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="proyecto">
-          <img src="/imagenes/imgPortafolio/Pokemons_api.png" alt="API Pokemon JS">
-          <div class="overlay">
-            <p>Proyecto Consumiendo API_Pokemons-JavaScript Vanilla</p>
-            <div class="iconos-contenedor">
-              <a href="https://github.com/psilvag/APIPokemons_JS" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
-              <a href="https://639ca574c324520ff2ea04c3--creative-nougat-5a438e.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="/imagenes/imgPortafolio/Pokemons_api.png" alt="API Pokemon JS">
+            <div class="overlay">
+              <p>Proyecto Pokemons-JavaScript Vanilla |API Pokemon</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/psilvag/APIPokemons_JS" target="_blank" rel="noopener noreferrer"><i
+                    class="bi bi-github"></i></a>
+                <a href="https://639ca574c324520ff2ea04c3--creative-nougat-5a438e.netlify.app/" target="_blank"
+                  rel="noopener noreferrer"><i class="bi bi-laptop-fill"></i></a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-    </div>
+      </div>
     </div>
     <!-- <a href="" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-info">
         Ver más proyectos <i class="bi bi-arrow-right-circle-fill"></i>
@@ -269,25 +293,25 @@
             !Hablemos!
           </div>
           <div class="col-12 col-md-4 descripcion">
-            Contáctame para iniciar grandes proyectos
+            "Si necesita un desarrollador que pueda agregar valor a su equipo y ayudar a impulsar su negocio,
+            ¡no dude en enviarme un mensaje hoy mismo!"
+
           </div>
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-4 ">
             <a href="mailto:pmarcelosilvag@gmail.com">
-              <button type="button">
-                Contacto
-                <i class="bi bi-envelope-check-fill"></i>
-              </button>
+              <button type="button">Enviar mensaje</button>
             </a>
           </div>
-
-
         </div>
       </div>
+    </div>
+
   </section>
 
   <footer class="seccion-oscura d-flex flex-column justify-content-center align-items-center">
-    <img class="footer-icon" src="/icons/Typing.png" alt="logo">
-    <p class="footer-texto text-center">Me encanta aprender y crear cosas nuevas todos los dias<br> Trabajemos juntos
+    <img class="footer-icon" src="/icons/code.png" alt="logo">
+    <p class="footer-texto text-center"> Estoy dispuesto y ansioso por asumir nuevos desafíos y colaborar en proyectos
+      emocionantes<br> Trabajemos juntos
     </p>
     <div class="iconos-redes-sociales d-flex flex-wrap justify-content-center align-items-center ">
       <a href="https://www.linkedin.com/in/pablo-silva-a7862a255/" target="_blank" rel="noopener noreferrer">
@@ -306,6 +330,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
