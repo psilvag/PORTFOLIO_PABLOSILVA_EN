@@ -11,12 +11,12 @@ section {
 }
 
 .seccion-oscura {
-    color: #29D632;
+    color:white;
     background-color: #0C0C18;
 }
 
 .seccion-clara {
-    color: #20293E;
+    color: #0C0C18;
 
 }
 
@@ -36,6 +36,10 @@ h1 {
     font-size: 1.3rem;
     text-align: justify;
 }
+.seccion-texto span {
+    font-weight: bold;
+    color: #29D632;
+}
 
 .texto-blanco {
     color: white;
@@ -45,7 +49,7 @@ h1 {
     font-size: 1.5rem;
     color: white;
 }
-
+ 
 
 /*Seccion navbar*/
 .navbar {
@@ -82,7 +86,8 @@ h1 {
 
 /*Seccion perfil*/
 .perfil {
-    background: linear-gradient(133deg, rgba(12, 12, 24, 1) 3%, rgba(42, 52, 77, 1) 31%, rgba(54, 65, 85, 1) 75%, rgba(74, 83, 96, 1) 91%, rgba(94, 101, 106, 1) 100%);
+    background-color: #0C0C18;
+    /* background: linear-gradient(133deg, rgba(12, 12, 24, 1) 3%, rgba(42, 52, 77, 1) 31%, rgba(54, 65, 85, 1) 75%, rgba(74, 83, 96, 1) 91%, rgba(94, 101, 106, 1) 100%); */
     min-height: 450px;
     text-align: center;
 
@@ -93,7 +98,7 @@ h1 {
 }
 
 .perfil-principal {
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .perfil-imagen {
@@ -109,49 +114,86 @@ h1 {
 
 .perfil-principal .lenguajes {
     color: white;
+    font-size: 25px;
 }
 
 .perfil-principal h2 {
 
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #29D632;
 }
 
 .perfil-inferior-imagen {
     border-radius: 30px;
-    width: 480px;
-    height: 480px;
+    width: 450px;
+    height: 450px;
 }
 
-.perfil .btn-info {
-    background-color: #07080C;
+.perfil button {
+    background-color: white;
+    height: 65px;
     font-size: 22px;
-    color: #29D632;
-    margin: 30px;
+    color: #0C0C18;
+    margin: 10px;
+    outline: none;
+    padding: 10px;
+
+}
+.perfil button:hover{
+   background-color: white;
+   color: black;
+   font-weight: 600;
 }
 
-.perfil .btn-info:hover {
-    filter: brightness(1.6);
+.perfil button:hover {
+    filter: brightness(1.2);
     transition: filter 0.5s ease;
 }
+.contacts{
+    width: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  
+    
+}
+.contacts i{
+    width: 70px;
+    height:70px;
+    display:flex;
+    color: white;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: 0.2s ease-in;
+}
+
+.contacts a:hover i {
+    background-color: white;
+    color: black;
+}
+
 
 /*Seccion sobre mi*/
 .sobre-mi {
-    height: 400px;
-    padding: 25px;
-
+    height: auto;
+    padding: 20px;
 }
 
 .sobre-mi .contenedor {
     max-width: 600px;
     text-align: center;
-
 }
 
 /*Seccion experiencia*/
 .experiencia {
     padding: 40px 40px 60px 40px;
-    background: linear-gradient(133deg, rgba(12, 12, 24, 1) 3%, rgba(42, 52, 77, 1) 31%, rgba(54, 65, 85, 1) 75%, rgba(74, 83, 96, 1) 91%, rgba(94, 101, 106, 1) 100%);
+    background-color: #0C0C18;
+    /* background: linear-gradient(133deg, rgba(12, 12, 24, 1) 3%, rgba(42, 52, 77, 1) 31%, rgba(54, 65, 85, 1) 75%, rgba(74, 83, 96, 1) 91%, rgba(94, 101, 106, 1) 100%); */
 }
 
 .experiencia .columna {
@@ -166,7 +208,6 @@ h1 {
 }
 
 .experiencia .columna:hover {
-    background-color: #07080C;
     color: white;
     border: 2px solid #7ade30;
 
@@ -185,24 +226,24 @@ h1 {
     padding: 8px 19px;
     border-radius: 50%;
 }
-
+.experiencia .lista{
+    text-align: justify;
+}
+.experiencia-titulo span{
+  color: #7ade30;
+}
 .badges-contenedor {
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0;
 }
 
-.badge {
-    margin: 5px;
-    background-color: #07080C;
-
-}
-
 /*Seccion proyectos*/
 
 .proyectos {
     padding: 40px;
-    background: linear-gradient(180deg, rgba(12, 12, 24, 1) 3%, rgba(42, 52, 77, 1) 31%, rgba(54, 65, 85, 1) 75%, rgba(74, 83, 96, 1) 91%, rgba(94, 101, 106, 1) 100%);
+    /* background: linear-gradient(180deg, rgba(12, 12, 24, 1) 3%, rgba(42, 52, 77, 1) 31%, rgba(54, 65, 85, 1) 75%, rgba(74, 83, 96, 1) 91%, rgba(94, 101, 106, 1) 100%); */
+    background-color:#0C0C18;
 }
 
 .proyectos img {
@@ -244,7 +285,6 @@ h1 {
 
 .proyecto:hover img {
     opacity: 0.2;
-
 }
 
 .proyecto:hover .overlay {
@@ -260,6 +300,12 @@ h1 {
     font-size: 60px;
     color: #29D632;
     margin: 20px;
+   
+}
+.iconos-contenedor a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .proyectos .btn-info {
@@ -269,10 +315,7 @@ h1 {
     border: 2px solid #04252d;
 }
 
-.proyectos .btn-info:hover {
-    border: 2px solid #0A88A2;
 
-}
 .backend{
     text-align: center;
     font-size: 1.5rem;
